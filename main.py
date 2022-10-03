@@ -50,8 +50,7 @@ class Saint():
 
     def print_saints_list(self, saint_list):
         print("-------OTHER SAINT LIST-------")
-        for saint in saint_list:
-            print(f"{saint.name}")
+        print([f"{saint.name}" for saint in saint_list])
 
     def print_today_date(self):
         now = dt.now()
